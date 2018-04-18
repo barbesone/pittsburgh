@@ -1,0 +1,156 @@
+body {
+    background-color: #d4f0ec;
+}
+
+#bodyone    {   
+    background-color: #f1f1f1;
+        }
+
+.slidebox {
+    height: auto;
+    background-color: #ebf7f9;
+    padding: 2%
+}
+
+.jumbotron {
+    background: #333;
+    height: 600px;
+    margin-top: 80px
+}
+
+.bg-info {
+    background-image: url("/images/cityview.jpg");
+    background-color: #ebf7f9;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.bg-infochapters {
+    background-image: url("/images/WashdayLWHweb.jpg");
+    background-color: #ebf7f9;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.carousel-indicators .active    {
+    background-color: #f29d7c;
+}    
+
+.row {
+    margin-top: 50px;
+}
+
+.container    {
+    background-color: #feff9c;
+    border: 5px solid #f29d7c; 
+    padding: 2%;
+    margin-bottom: 5%
+}
+
+.navmaintainer   {
+    background-color: #feff9c;
+    border: 5px solid #f29d7c; 
+} 
+
+.overlay {
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 2;
+    cursor: pointer;
+}   
+
+.text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 20px;
+    color: #493615;
+    transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    background-color: f3f0d5;
+}
+
+
+.modcontainer    {
+    background-color: #feff9c;
+    border: 5px solid #f29d7c; 
+    padding: 2%;
+}
+
+.modal {
+    display: none; /* Hidden by default */
+    position: cover; /* Stay in place */
+    z-index: 8888; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+.modal-content {
+    background-color:  #ebf7f9;
+    margin: 0 auto;
+    padding: 20px;
+    border: 5px solid #f29d7c;
+    width: 80%;
+    background-image: url(/images/tiredoutmodal.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: auto;
+    margin: auto;
+}
+
+.modal-content> .container {
+    margin-top: 90%;
+}
+
+/*@media (min-width: 1366px) {
+  .modal-content {
+    background-color: #ebf7f9;
+    margin: 10vh auto; *//* 15% from the top and centered */
+ /*   padding: 20px;
+    border: 1px solid #888;
+    width: 30%; *//* Could be more or less, depending on screen size */
+/*	}*/
+/*}*/
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+button.button {
+  background:none;
+  border-top:none;
+  border-right:none;
+  border-left:none;
+  border-bottom:#02274a 1px solid;
+  padding:0 0 3px 0;
+  font-size:16px;
+}
+
+button.button:hover {
+  border-bottom:#a99567 1px solid;
+  color:#a99567;
+}
