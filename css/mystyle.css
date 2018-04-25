@@ -13,13 +13,13 @@ body {
 }
 
 .jumbotron {
-    background: #333;
+    background:  #333;
     height: 600px;
     margin-top: 80px
 }
 
 .bg-info {
-    background-image: url("/images/cityview.jpg");
+    background-image: url("../images/cityview.jpg");
     background-color: #ebf7f9;
     background-size: cover;
     background-position: center;
@@ -27,7 +27,7 @@ body {
 }
 
 .bg-infochapters {
-    background-image: url("/images/WashdayLWHweb.jpg");
+    background-image: url("../images/WashdayLWHweb.jpg");
     background-color: #ebf7f9;
     background-size: cover;
     background-position: center;
@@ -105,7 +105,7 @@ body {
     padding: 20px;
     border: 5px solid #f29d7c;
     width: 80%;
-    background-image: url(/images/tiredoutmodal.jpg);
+    background-image: url(../images/tiredoutmodal.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
     height: auto;
